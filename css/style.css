@@ -46,8 +46,16 @@ general rules
     flex-basis: calc(100% * (2/3));
 }
 
-.row-warp {
+.row-wrap {
     flex-wrap: wrap;
+}
+
+.row-wrap .col {
+    padding: 10px;
+}
+
+.row-wrap .col:last-child {
+    flex-grow: 1;
 }
 
 /*******************************
@@ -128,10 +136,6 @@ business plan section
     margin: 0 auto;
 }
 
-.business-plan > .row {
-    flex-direction: column;
-}
-
 .card-title {
     text-align: center;
     border: 2px solid #f2f2f3;
@@ -186,3 +190,4 @@ business plan section
     background-color: #f2f2f3;
     margin: 20px 0;
 }
+
