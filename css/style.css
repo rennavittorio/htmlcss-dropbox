@@ -43,7 +43,7 @@ general rules
 navbar rules
 ******************************/
 .header {
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
 
