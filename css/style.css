@@ -62,8 +62,11 @@ general rules
 navbar rules
 ******************************/
 .header {
-    position: sticky;
+    position: fixed;
+    z-index: 1;
     width: 100%;
+    background-color: white;
+    padding: 10px;
 }
 
 .header .row {
@@ -92,10 +95,7 @@ hero section rules
 *****************************/
 .hero {
     background-color: #B4D0E7;
-}
-
-main .container{
-    padding: 40px 0;
+    padding: 100px 0 0 0;
 }
 
 main .row {
