@@ -104,17 +104,17 @@
         <section class="business-plan">
             <div class="container container-small">
                 <!-- title -->
-                <row>
+                <div class="row">
                     <div class="col">
                         <h3 class="business-plan-title">
                             Trova il piano business che fa per te
                         </h3>
                     </div>
-                </row>
+                </div>
 
-                <row>
+                <div class="row">
                     <!-- radiobuttons -->
-                    <div class="col">
+                    <div class="col business-plan-choice">
                         <label for="month-plan">
                             <input type="radio" id="month-plan" name="business-plan-pay" value="month">
                             Fatturazione mensile
@@ -124,14 +124,16 @@
                             Fatturazione annuale
                         </label>
                     </div>
+                </div>
 
-                    <div class="col">
+                <div class="row">
+                    <div class="col col-4">
                         <!-- card prototype -->
                         <div class="card">
 
                             <div class="card-title">
                                 <p><i class="icon fa-solid fa-user"></i>
-                                    businessplan type
+                                    Singolo
                                 </p>
                             </div>
 
@@ -148,15 +150,15 @@
                                 <ul class="business-plan-list hardware-list">
                                     <li>
                                         <i class="icon fa-solid fa-user"></i>
-                                        businessplan type
+                                        1 utente
                                     </li>
                                     <li>
-                                        <i class="icon fa-solid fa-user"></i>
-                                        businessplan type
+                                        <i class="fa-solid fa-folder"></i>
+                                        5 TB di spazio di archiviazione sicuro
                                     </li>
                                     <li>
-                                        <i class="icon fa-solid fa-user"></i>
-                                        businessplan type
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        Funzioni di produttività premium e condivisione file semplice e sicura
                                     </li>
                                 </ul>
 
@@ -166,29 +168,29 @@
                                     </a>
                                 </p>
 
-                                <p>
-                                    oppure <a href="#">
+                                <p class="buy-link">
+                                    oppure 
+                                    <a class="link" href="#">
                                         acquista ora
                                     </a>
                                 </p>
 
-                                <div class="line">
-                                    <!-- da fare con :after -->
-                                </div>
-
-                                <ul class="business-plan-list hardware-list">Punti salienti del piano
-                                    <li>
-                                        <i class="icon fa-solid fa-user"></i>
-                                        businessplan type
+                                <ul class="business-plan-list hardware-list">
+                                    <li class="list-title">
+                                        Punti salienti del piano
                                     </li>
                                     <li>
-                                        <i class="icon fa-solid fa-user"></i>
-                                        businessplan type
+                                        <i class="fa-solid fa-check"></i>
+                                        Invia file fino a 100 GB con Dropbox Transfert
                                     </li>
                                     <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        Cartelle offline su dispositivi mobili
+                                    </li>
+                                    <!-- <li>
                                         <i class="icon fa-solid fa-user"></i>
                                         businessplan type
-                                    </li>
+                                    </li> -->
                                 </ul>
 
                             </div>
@@ -196,7 +198,7 @@
                         </div>
                     </div>
 
-                </row>
+                </div>
             </div>
         </section>
 

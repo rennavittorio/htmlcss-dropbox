@@ -46,6 +46,10 @@ general rules
     flex-basis: calc(100% * (2/3));
 }
 
+.row-warp {
+    flex-wrap: wrap;
+}
+
 /*******************************
 navbar rules
 ******************************/
@@ -124,14 +128,61 @@ business plan section
     margin: 0 auto;
 }
 
-.business-plan-title {
-    font-size: 34px;
+.business-plan > .row {
+    flex-direction: column;
 }
 
-.business-plan-name > span {
-    display: block;
+.card-title {
+    text-align: center;
+    border: 2px solid #f2f2f3;
+    padding: 10px 30px;
+}
+
+.card-description {
+    border: 2px solid #f2f2f3;
+    padding: 0 30px;
 }
 
 .card-description > * {
     padding: 20px 0;
+}
+
+.card .button {
+    text-align: center;
+}
+
+.card .link {
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+.business-plan-title {
+    font-size: 34px;
+}
+
+.business-plan-name:not(span) {
+    font-size: 18px;
+}
+
+.business-plan-name > span {
+    display: block;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.card ul > li {
+    padding-bottom: 28px;
+}
+
+.list-title {
+    font-weight: 700;
+}
+
+.buy-link::after {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #f2f2f3;
+    margin: 20px 0;
 }
