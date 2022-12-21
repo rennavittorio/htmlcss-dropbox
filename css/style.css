@@ -6,13 +6,63 @@
 
 img, svg {
     max-width: 100%;
+    display: block;
 }
 
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 ul, ol, li, menu {
     list-style: none;
 }
 
+/* debug rules */
+.debug .container,
+.debug .row,
+.debug .col {
+    padding: 20px;
+    border: 2px dashed cornflowerblue;
+}
+
+.debug .header {
+    background-color: coral;
+}
+/* fine debug rules */
+
+/****************************
+general rules
+*****************************/
+.row {
+    display: flex;
+}
+
+
+/*******************************
+navbar rules
+******************************/
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.header .row {
+    justify-content: space-between;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-flex .nav-item {
+    padding: 0 20px;
+    line-height: 40px;
+}
+
+.nav-button {
+    background-color: #0061FF;
+    color: white;
+}
