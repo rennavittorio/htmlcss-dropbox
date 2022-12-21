@@ -38,6 +38,13 @@ general rules
     display: flex;
 }
 
+.col-4 {
+    flex-basis: calc(100% / 3);
+}
+
+.col-8 {
+    flex-basis: calc(100% * (2/3));
+}
 
 /*******************************
 navbar rules
@@ -62,7 +69,48 @@ navbar rules
     line-height: 40px;
 }
 
-.nav-button {
+.button {
     background-color: #0061FF;
     color: white;
+}
+
+
+/*****************************
+hero section rules
+*****************************/
+.hero {
+    background-color: #B4D0E7;
+}
+
+main .container{
+    padding: 40px 0;
+}
+
+main .row {
+    padding: 20px 0;
+}
+
+.container-mid {
+    max-width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 52px;
+}
+
+.hero-cta > * {
+    margin-bottom: 30px;
+}
+
+.hero-cta .button {
+    padding: 20px;
+    max-width: fit-content;
+}
+
+.arr-down {
+    position: absolute;
+    bottom: 0;
+    font-size: 50px;
 }
