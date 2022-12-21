@@ -114,3 +114,24 @@ main .row {
     bottom: 0;
     font-size: 50px;
 }
+
+
+/*********************************
+business plan section
+*********************************/
+.container-small {
+    max-width: 1042px;
+    margin: 0 auto;
+}
+
+.business-plan-title {
+    font-size: 34px;
+}
+
+.business-plan-name > span {
+    display: block;
+}
+
+.card-description > * {
+    padding: 20px 0;
+}
