@@ -92,6 +92,17 @@ navbar rules
     color: white;
 }
 
+.button--fit {
+    padding: 20px;
+    max-width: fit-content;
+}
+
+.button--grey {
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+}
+
 
 /*****************************
 hero section rules
@@ -120,11 +131,6 @@ main .row {
 
 .hero-cta > * {
     margin-bottom: 30px;
-}
-
-.hero-cta .button {
-    padding: 20px;
-    max-width: fit-content;
 }
 
 .arr-down {
@@ -197,3 +203,10 @@ business plan section
     margin: 20px 0;
 }
 
+
+/************************
+partnership section
+***********************/
+.partnership__info > * {
+    margin-bottom: 30px;
+}
