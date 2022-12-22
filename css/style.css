@@ -9,6 +9,10 @@ img, svg {
     display: block;
 }
 
+.img--small {
+    max-width: 75%;
+}
+
 a {
     text-decoration: none;
     color: currentColor;
@@ -209,4 +213,21 @@ partnership section
 ***********************/
 .partnership__info > * {
     margin-bottom: 30px;
+}
+
+
+/*************************
+productinfo section
+************************/
+.card__info > * {
+    margin-top: 10px;
+}
+
+.card__productinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__productinfo .card__img {
+    margin: 0 auto;
 }
