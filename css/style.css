@@ -231,3 +231,11 @@ productinfo section
 .card__productinfo .card__img {
     margin: 0 auto;
 }
+
+
+/*******************************
+dropbox business section
+*****************************/
+.dropbox-business__card > * {
+    margin-bottom: 30px;
+}
