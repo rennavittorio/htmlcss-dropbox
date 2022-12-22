@@ -42,8 +42,16 @@ general rules
     display: flex;
 }
 
+.row--cols {
+    flex-direction: column;
+}
+
 .col-4 {
     flex-basis: calc(100% / 3);
+}
+
+.col-6 {
+    flex-basis: calc(100% / 2);
 }
 
 .col-8 {
@@ -238,4 +246,26 @@ dropbox business section
 *****************************/
 .dropbox-business__card > * {
     margin-bottom: 30px;
+}
+
+/******************************
+best client section
+*****************************/
+.client__item {
+    padding: 70px;
+}
+
+.client__item {
+    aspect-ratio: 1;
+    background-color: aquamarine;
+}
+
+.client__item--central {
+    padding: 0;
+    max-width: 40%;
+    color: black;
+}
+
+.flex__item {
+    display: flex;
 }
