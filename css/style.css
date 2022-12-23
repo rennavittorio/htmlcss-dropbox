@@ -241,15 +241,15 @@ business plan section
 
 .card-description {
     border: 2px solid #f2f2f3;
-    padding: 0 30px;
 }
 
-.card-description > * {
-    padding: 20px 0;
+.description-padding > * {
+    margin: 40px;
 }
 
 .card .button {
     text-align: center;
+    padding: 20px 0;
 }
 
 .card .link {
