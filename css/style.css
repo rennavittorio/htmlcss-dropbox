@@ -91,6 +91,18 @@ general rules
     justify-content: space-between;
 }
 
+section {
+    padding-top: 75px;
+}
+
+
+/******************************
+font mgmt
+******************************/
+.title--big {
+    font-size: 72px;
+}
+
 
 
 /******************************
@@ -149,10 +161,6 @@ navbar rules
     padding: 20px;
 }
 
-section {
-    padding-top: 75px;
-}
-
 /*****************************
 hero section rules
 *****************************/
@@ -160,14 +168,13 @@ hero section rules
     background: linear-gradient(#B4D0E7 90%, white 10%);
 }
 
+.hero__title {
+    padding: 40px 0;
+}
+
 .container-mid {
     max-width: 1240px;
     margin: 0 auto;
-}
-
-.hero__title {
-    font-size: 52px;
-    padding: 30px 0;
 }
 
 .hero__cta {
