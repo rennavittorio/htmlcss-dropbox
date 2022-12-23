@@ -50,6 +50,10 @@ general rules
     flex-direction: column;
 }
 
+.row--padding {
+    padding: 10px 0;
+}
+
 .col-2 {
     flex-basis: calc(100% / 6)
 }
@@ -100,7 +104,11 @@ section {
 font mgmt
 ******************************/
 .title--big {
-    font-size: 72px;
+    font-size: 96px;
+}
+
+.title--mid {
+    font-size: 54px;
 }
 
 
@@ -197,6 +205,24 @@ business plan section
     margin: 0 auto;
 }
 
+.button__radio::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    position: relative;
+    bottom: -1px;
+}
+
+.button__radio:hover::before {
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+/* card prototype */
 .card-title {
     text-align: center;
     border: 2px solid #f2f2f3;
@@ -219,10 +245,6 @@ business plan section
 .card .link {
     text-decoration: underline;
     color: #0061FF;
-}
-
-.business-plan-title {
-    font-size: 34px;
 }
 
 .business-plan-name:not(span) {
