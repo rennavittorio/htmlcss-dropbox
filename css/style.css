@@ -116,6 +116,10 @@ font mgmt
     font-size: 54px;
 }
 
+.title--small {
+    font-size: 24px;
+}
+
 
 
 /******************************
@@ -253,8 +257,9 @@ business plan section
     color: #0061FF;
 }
 
-.business-plan-name:not(span) {
-    font-size: 18px;
+.bp__item {
+    display: flex;
+    column-gap: 10px;
 }
 
 .business-plan-name > span {
