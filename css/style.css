@@ -80,15 +80,16 @@ general rules
 
 .row-wrap {
     flex-wrap: wrap;
+    margin: 0 -10px;
 }
 
 .row-wrap .col {
     padding: 10px;
 }
 
-.row-wrap .col:last-child {
+/* .row-wrap .col:last-child {
     flex-grow: 1;
-}
+} */
 
 .col--flex-end {
     display: flex;
