@@ -149,37 +149,38 @@ navbar rules
     padding: 20px;
 }
 
+section {
+    padding-top: 75px;
+}
+
 /*****************************
 hero section rules
 *****************************/
 .hero {
-    background-color: #B4D0E7;
-    padding: 100px 0 0 0;
+    background: linear-gradient(#B4D0E7 90%, white 10%);
 }
 
-
-/*** da rifare ***/
-/* usare il flex e gap per gestire cta+arrow */
 .container-mid {
     max-width: 1240px;
     margin: 0 auto;
-    position: relative;
 }
 
-.hero-title {
+.hero__title {
     font-size: 52px;
+    padding: 30px 0;
 }
 
-.hero-cta > * {
-    margin-bottom: 30px;
+.hero__cta {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.arr-down {
-    position: absolute;
-    bottom: 0;
+.hero__cta .arr-down {
     font-size: 50px;
 }
-
 
 /*********************************
 business plan section
