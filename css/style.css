@@ -87,10 +87,6 @@ general rules
     padding: 10px;
 }
 
-/* .row-wrap .col:last-child {
-    flex-grow: 1;
-} */
-
 .col--flex-end {
     display: flex;
     justify-content: flex-end;
@@ -290,7 +286,7 @@ business plan section
 partnership section
 ***********************/
 .partnership__info > * {
-    margin-bottom: 30px;
+    margin: 40px 15px;
 }
 
 
