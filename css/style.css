@@ -87,38 +87,18 @@ general rules
     justify-content: space-between;
 }
 
-/*******************************
-navbar rules
+
+
+/******************************
+buttons types
 ******************************/
-.header {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    background-color: white;
-    padding: 10px;
-}
-
-.header .row {
-    justify-content: space-between;
-}
-
-.nav-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*** da rifare ***/
-/* per rendere cliccabile tutto il button devo targettizzare a */
-/* capire come midificare */
-.nav-flex .nav-item {
-    padding: 0 20px;
-    line-height: 40px;
-}
-
 .button {
     background-color: #0061FF;
     color: white;
+}
+
+.button--header {
+    line-height: 40px;
 }
 
 .button--fit {
@@ -132,6 +112,38 @@ navbar rules
     border: 1px solid grey;
 }
 
+
+
+/*******************************
+navbar rules
+******************************/
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    /* padding: 10px; */
+}
+
+.header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.nav__item {
+    flex-shrink: 0;
+}
+
+.nav__list .nav__item > a:not(.no-padding) {
+    padding: 20px;
+}
 
 /*****************************
 hero section rules
