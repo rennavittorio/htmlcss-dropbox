@@ -178,7 +178,11 @@ navbar rules
 hero section rules
 *****************************/
 .hero {
-    background: linear-gradient(#B4D0E7 90%, white 10%);
+    background-color:#B4D0E7;
+}
+
+.col-hero {
+    margin-bottom: -50px;
 }
 
 .hero__title {
