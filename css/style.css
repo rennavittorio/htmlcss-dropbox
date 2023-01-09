@@ -317,24 +317,49 @@ dropbox business section
 /******************************
 best client section
 *****************************/
-.client__item {
-    padding: 70px;
+/* .col-4, 
+.client__item,
+.client__list {
+    border: 2px solid black;
+} */
+
+.client__list {
+    flex-wrap: wrap;
 }
 
 .client__item {
     aspect-ratio: 1;
     background-color: aquamarine;
-}
-
-.client__item--central {
-    padding: 0;
-    max-width: 40%;
-    color: black;
+    flex-grow: 1;
+    padding: 20px;
 }
 
 .flex__item {
     display: flex;
 }
+
+.main-card-client__box {
+    height: 100%;
+    background: lightgray;
+}
+
+.main-card-client__box > * {
+    padding: 20px;
+}
+
+.main-card-client__img {
+    max-width: 200px;
+}
+
+.main-card-client__description::before {
+    content: '';
+    display: block;
+    width: 50px;
+    padding: 1px;
+    background: grey;
+    margin-bottom: 20px;
+}
+
 
 /************************
 dropbox-business-cta section
